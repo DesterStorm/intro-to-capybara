@@ -8,12 +8,4 @@ class Application < Sinatra::Base
   post '/greet' do
     erb :greet
   end
-  
-  post '/quest' do 
-    erb :quest
-  end
-  
-  post '/swalow' do 
-    erb :swalow 
-  end
 end
